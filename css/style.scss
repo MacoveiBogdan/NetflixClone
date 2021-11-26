@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Header {
+    display: block;
+    width: 100%;
+    height: 550px;
+    background-image: url("../images/cover1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (min-width: 550px) {
+        height: 600px;
+    }
+    @media (min-width: 950px) {
+        height: 750px;
+    }
+}
+.Logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.LogoImg {
+    width: 100px;
+    height: 25px;
+    margin: 30px 0 15px;
+    @media (min-width: 550px) {
+        margin-left: 50px;
+    }
+    @media (min-width: 950px) {
+        width: 150px;
+        height: 35px;
+        margin-left: 60px;
+    }
+}
+.NavBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+.HeaderTop {
+    @media (min-width: 550px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.LanguageTop {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #757575;
+    background: #000;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    @media (min-width: 550px) {
+        margin-top: 30px;
+        width: 110px;
+        height: 35px;
+    }
+    @media (min-width: 950px) {
+        width: 130px;
+        height: 40px;
+    }
+}
+.GlobTop {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-left: 2px;
+    @media (min-width: 550px) {
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+    @media (min-width: 950px) {
+        width: 18px;
+        height: 18px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+.LanguageSelectTop {
+    font-size: 15px;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    @media (min-width: 550px) {
+        font-size: 16px;
+    }
+    @media (min-width: 950px) {
+        font-size: 18px;
+    }
+}
+.OptionColor {
+    background: #999;
+}
+.Conectare {
+    display: block;
+    width: 90px;
+    height: 25px;
+    background: #e50914;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 1px 0;
+    @media (min-width: 550px) {
+        width: 100px;
+        height: 35px;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 50px;
+        padding: 7px;
+    }
+    @media (min-width: 950px) {
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 50px;
+        padding: 7px;
+    }
+}
+
+.Content {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    @media (min-width: 550px) {
+        margin-top: 100px;
+    }
+    @media (min-width: 950px) {
+        margin-top: 120px;
+    }
+}
+.Title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 1.2;
+    @media (min-width: 550px) {
+        font-size: 40px;
+        width: 70%;
+    }
+    @media (min-width: 750px) {
+        font-size: 45px;
+        width: 650px;
+    }
+    @media (min-width: 1450px) {
+        font-size: 50px;
+    }
+}
+.Subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 1.3;
+    @media (min-width: 550px) {
+        font-size: 25px;
+    }
+    @media (min-width: 750px) {
+        font-size: 28px;
+        width: 650px;
+    }
+}
+.Vizionare {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 20px;
+    @media (min-width: 550px) {
+        font-size: 18px;
+        width: 70%;
+    }
+    @media (min-width: 750px) {
+        font-size: 22px;
+        width: 650px;
+    }
+}
+
+.Form {
+    text-align: center;
+    margin-top: 15px;
+    @media (min-width: 950px) {
+        display: flex;
+    }
+}
+.FormContainer {
+    @media (min-width: 950px) {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+.InputContainer {
+    width: 90%;
+    height: 45px;
+    text-indent: 10px;
+    cursor: pointer;
+    @media (min-width: 550px) {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+    }
+    @media (min-width: 740px) {
+        display: block;
+        height: 55px;
+    }
+    @media (min-width: 1450px) {
+        height: 60px;
+    }
+}
+.Btn {
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    background: #e50914;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    @media (min-width: 950px) {
+        height: 55px;
+        margin-top: 0;
+        width: 150px;
+        font-size: 28px;
+    }
+    @media (min-width: 1450px) {
+        height: 60px;
+    }
+}
+.BtnEngleza{
+   width: 150px;
+   height: 40px;
+   @media (min-width: 950px){
+       height: 55px;
+       width: 230px;
+   }
+   @media (min-width: 1450px){
+       height: 60px;
+       width: 250px;
+   }
+}
+
+// ######## CONTAINER #######
+.Container {
+    border-top: 7px solid #222;
+    background: #000;
+    height: 450px;
+}
+.ContainerTitle {
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 15px;
+    @media (min-width: 550px) {
+        font-size: 35px;
+    }
+    @media (min-width: 950px) {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+.ContainerSubtitle {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    @media (min-width: 950px) {
+        font-size: 25px;
+        text-align: left;
+    }
+}
+.ContainerSection13 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 950px) {
+        display: flex;
+        margin-top: 70px;
+    }
+    @media (min-width: 1200px) {
+        width: 1000px;
+    }
+}
+.ContainerSection21 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 950px) {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 40px;
+    }
+    @media (min-width: 1200px) {
+        width: 1000px;
+    }
+}
+.Main {
+    display: block;
+    margin-top: 35px;
+    @media (min-width: 950px) {
+        width: 60%;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+}
+.ContainerImg {
+    width: 90vw;
+    height: 220px;
+    margin-top: 30px;
+    @media (min-width: 550px) {
+        display: block;
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+.ContainerPhone {
+    display: block;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    @media (min-width: 550px) {
+        width: 300px;
+        height: 220px;
+    }
+    @media (min-width: 950px) {
+        margin-top: 50px;
+        height: 250px;
+    }
+}
+
+// ####### INTREBARI #######
+.Question {
+    border-top: 7px solid #222;
+    margin: 40px 0;
+}
+.TriggerButton {
+    display: block;
+    background: #303030;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 6px;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    @media (min-width: 550px) {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 6px;
+        font-size: 20px;
+        padding: 20px;
+    }
+    @media (min-width: 950px) {
+        font-size: 25px;
+        width: 70%;
+    }
+}
+.Plus {
+    width: 16px;
+    height: 16px;
+    float: right;
+    @media (min-width: 550px) {
+        width: 18px;
+        height: 18px;
+    }
+    &.Active {
+        transform: rotate(45deg);
+    }
+}
+
+// INTREBARI JAVASCRIPT
+.TextIntrebari {
+    display: none;
+    color: #fff;
+    &.Active {
+        display: block;
+        background: #303030;
+        margin-top: -4px;
+        margin-bottom: 6px;
+        padding: 20px;
+        font-size: 18px;
+        @media (min-width: 550px) {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -4px;
+            margin-bottom: 6px;
+        }
+        @media (min-width: 950px) {
+            font-size: 25px;
+            padding: 25px;
+            width: 70%;
+        }
+    }
+}
+.TitleIntrebari {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #fff;
+    line-height: 1.2;
+    @media (min-width: 550px) {
+        font-size: 35px;
+    }
+    @media (min-width: 950px) {
+        font-size: 40px;
+        margin: 80px 0 50px;
+    }
+}
+.TitleForm {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+    color: #fff;
+    @media (min-width: 550px) {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+    @media (min-width: 950px) {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+}
+.IntrebariForm {
+    border-bottom: 7px solid #222;
+    height: 230px;
+}
+
+// FOOTER
+.Footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.FooterParagraph {
+    color: #757575;
+    font-size: 16px;
+    position: relative;
+    margin-left: 7px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.FooterContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (min-width: 510px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (min-width: 750px){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.ListItemLink {
+    color: #757575;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+.ListItem {
+    padding: 5px;
+}
+.SelectFooter {
+    display: flex;
+    background: #000;
+    color: #757575;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+.LanguageBottom {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #757575;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+}
+.LanguageSelectBottom {
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #757575;
+}
+.Glob {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.FooterParagraph2 {
+    color: #757575;
+    font-size: 16px;
+    position: relative;
+    margin-left: 7px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

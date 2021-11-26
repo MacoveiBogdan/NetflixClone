@@ -1,0 +1,197 @@
+.BodyConectare {
+    @media (min-width: 740px) {
+        background-image: url("../images/cover1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.TitleConectare {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    @media (min-width: 740px) {
+        padding-top: 50px;
+    }
+}
+.SectionConectare {
+    display: block;
+    width: 100%;
+    height: 550px;
+    border-bottom: 1px solid #757575;
+    @media (min-width: 740px) {
+        width: 450px;
+        height: 650px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        background: #000;
+        opacity: 0.8;
+        border: none;
+    }
+}
+.ContainerConectare {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 740px) {
+        width: 350px;
+    }
+}
+.InputForm {
+    text-indent: 20px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ConectareBtn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #e50914;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.LabelCheck {
+    display: block;
+    margin-top: 15px;
+}
+.LabelSpan {
+    color: #999;
+    font-size: 14px;
+}
+.LabelSpanLink {
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+}
+.LabelCheck > input {
+    height: 16px;
+    width: 16px;
+    appearance: none;
+    background: #999;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.Facebook {
+    display: flex;
+    margin-top: 30px;
+}
+.FacebookLink {
+    text-decoration: none;
+}
+.SpanFacebook {
+    color: #999;
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4px;
+}
+.FacebookLinkImg {
+    width: 22px;
+    height: 22px;
+    background: #fff;
+}
+.ParagraphNetflix {
+    color: #999;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.Strong {
+    color: #fff;
+}
+.ParagraphContinut {
+    color: #999;
+    margin-top: 20px;
+}
+
+.SpanDetalii {
+    color: #0071eb;
+}
+
+// FOOTER CONECTARE
+.LogoConectare {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.LogoImgConectare {
+    width: 120px;
+    height: 35px;
+    margin: 30px 0 15px;
+    @media (min-width: 440px) {
+        width: 220px;
+        height: 55px;
+    }
+}
+.FooterConectare {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 740px) {
+        position: relative;
+        bottom: -20px;
+        width: 100%;
+        margin: 0 50px;
+        background: #000;
+        opacity: 0.8;
+        padding: 50px 0;
+    }
+}
+.FooterParagraphConectare {
+    color: #999;
+    margin: 30px 0;
+}
+.ItemConectare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (min-width: 500px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.ContainerConectare{
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 750px) {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+.LinkConectare {
+    margin: 15px 0;
+}
+.LanguageConectare {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #757575;
+    background: #000;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    @media (min-width: 740px) {
+        margin-top: 30px;
+    }
+}
+.GlobConectare {
+    width: 16px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.LanguageSelectConectare {
+    font-size: 13px;
+    border: none;
+    background: none;
+    color: #999;
+    cursor: pointer;
+}
